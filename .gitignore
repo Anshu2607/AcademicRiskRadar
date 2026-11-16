@@ -1,0 +1,92 @@
+
+# =========================
+# .NET Build Outputs
+# =========================
+
+**/bin/
+**/obj/
+**/publish/
+**/artifacts/
+
+# =========================
+# Visual Studio
+# =========================
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Visual Studio Code
+# =========================
+
+.vscode/*
+!.vscode/extensions.json
+
+# =========================
+# Rider / JetBrains
+# =========================
+
+.idea/
+*.sln.iml
+
+# =========================
+# Operating System Files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Temporary Files and Logs
+# =========================
+
+*.log
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.swo
+TestResults/
+coverage/
+coverage-results/
+
+# =========================
+# Local Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+**/secrets.json
+**/appsettings.Local.json
+**/appsettings.Production.local.json
+
+# =========================
+# Local Certificates
+# =========================
+
+*.pfx
+*.p12
+*.key
+*.pem
+
+# =========================
+# NuGet Generated Files
+# =========================
+
+*.nupkg
+*.snupkg
+packages/
+
+# =========================
+# Node Dependencies
+# =========================
+
+node_modules/
+dist/
